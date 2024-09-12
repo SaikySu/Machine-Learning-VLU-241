@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload và Hiển thị Ảnh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input[type="file"] {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Upload và Hiển thị Ảnh</h1>
+    <input type="file" id="imageInput" accept="image/*">
+    <br>
+    <img id="imageDisplay" alt="Hình ảnh của bạn sẽ hiển thị ở đây" />
+
+    <script>
+        const imageInput = document.getElementById('imageInput');
+        const imageDisplay = document.getElementById('imageDisplay');
+
+        imageInput.addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    imageDisplay.src = e.target.result;
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+
+</body>
+</html>
