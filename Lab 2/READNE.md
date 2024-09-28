@@ -1,3 +1,5 @@
+# LAB 2
+# Câu 1
 1. Công nghệ sử dụng
     Sử dụng thư viện: pandas, numpy, sklearn.
 
