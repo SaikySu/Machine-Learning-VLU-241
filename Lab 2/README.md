@@ -21,4 +21,4 @@
     Naive_bayes
 
 3. Kết quả:
-     ![alt text](image-1.png)
+    ![alt text](image-3.png)
