@@ -7,7 +7,7 @@
     Naive Bayes
 
 3. Kết quả:
-    ![alt text](<Screenshot 2024-09-28 123804.png>)
+    ![alt text](image-2.png)
 
 4. So sánh kết quả.
     ![alt text](<Screenshot 2024-09-28 123804.png>)
