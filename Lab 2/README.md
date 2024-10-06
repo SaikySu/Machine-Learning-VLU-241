@@ -7,11 +7,11 @@
     Naive Bayes
 
 3. Kết quả:
-    ![alt text](![image](https://github.com/user-attachments/assets/426251c3-15ea-4849-accd-d088a09b80b8)
+    ![alt text](image.png)
 )
 
 4. So sánh kết quả.
-    ![alt text](![image](https://github.com/user-attachments/assets/658619d2-5e8a-42ad-9fb0-e8c1c1377166)
+    ![alt text](image_copy.png)
 )
     Ta thấy kết quả của Multinomial cao hơn so với Bernoulli    
 
