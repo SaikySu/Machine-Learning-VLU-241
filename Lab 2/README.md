@@ -7,11 +7,13 @@
     Naive Bayes
 
 3. Kết quả:
-    ![alt text](image-2.png)
+    ![alt text](![image](https://github.com/user-attachments/assets/426251c3-15ea-4849-accd-d088a09b80b8)
+)
 
 4. So sánh kết quả.
-    ![alt text](<Screenshot 2024-09-28 123804.png>)
-    Ta thấy 2 kết quả dù sử dụng 2 mô hình nhưng đều cùng kết quả.
+    ![alt text](![image](https://github.com/user-attachments/assets/658619d2-5e8a-42ad-9fb0-e8c1c1377166)
+)
+    Ta thấy kết quả của Multinomial cao hơn so với Bernoulli    
 
 # Câu 2
 1. Công nghệ sử dụng: 
