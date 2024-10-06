@@ -11,7 +11,7 @@
 )
 
 4. So sánh kết quả.
-    ![alt text](image-copy.png)
+    ![alt text](image_copy.png)
 )
     Ta thấy kết quả của Multinomial cao hơn so với Bernoulli    
 
