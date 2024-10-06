@@ -29,11 +29,10 @@
     pandas, sklearn, numpy
 
 2. Thuật toán sử dụng:
-    KNN: Dự đoán nhãn dựa trên khoảng cách 
-    Tính khoảng cách giữa các không gian vector
-    chuyển các giá trị về 0,1
+    KNN: Dự đoán nhãn dựa trên khoảng cách
+    Tính khoảng cách trong không gian vector
+    Biến đổi thành nhị phân
+    Chuyển về các giá trị 0 và 1
 
 3. Kết quả:
-    ![alt text](image_copy.png)
-    ![alt text](image_copy_2.png)
-    Do không tìm được lỗi nên em chụp tạm 
+    ![alt text](image_copy_3.png)
