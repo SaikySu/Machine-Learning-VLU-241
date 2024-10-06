@@ -1,54 +1,30 @@
 import streamlit as st
-import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.preprocessing import LabelEncoder
-import string
 from sklearn.naive_bayes import BernoulliNB, MultinomialNB
-from sklearn.metrics import accuracy_score
+import pandas as pd
 
-# Đọc file CSV được tải lên
-file_path = 'Education.csv'
-data = pd.read_csv(file_path)
+df = pd.read_csv("Education.csv")
+text, label = df['Text'], df['Label']
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(text, label, test_size=0.2, random_state=42)
 
-# Tiền xử lý dữ liệu văn bản
-def preprocess_text(text):
-    # Loại bỏ dấu câu và chuyển về chữ thường
-    text = text.translate(str.maketrans('', '', string.punctuation)).lower()
-    return text
+# Convert data into numerical features
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-# Áp dụng tiền xử lý cho cột Text
-data['Text'] = data['Text'].apply(preprocess_text)
+vectorizer = TfidfVectorizer(stop_words='english')
+X_train_vect = vectorizer.fit_transform(X_train)
+X_test_vect = vectorizer.transform(X_test)
 
-# Chuyển đổi nhãn 'positive' và 'negative' sang dạng số
-label_encoder = LabelEncoder()
-data['Label'] = label_encoder.fit_transform(data['Label'])
+X_train_vect = X_train_vect.toarray()
+X_test_vect = X_test_vect.toarray()
 
-# Chia dữ liệu thành tập huấn luyện và tập kiểm tra
-X_train, X_test, y_train, y_test = train_test_split(data['Text'], data['Label'], test_size=0.2, random_state=42)
+Bernoulli, Multinomial = BernoulliNB(), MultinomialNB()
+Bernoulli.fit(X_train_vect, y_train)
+Multinomial.fit(X_train_vect, y_train)
 
-# Biểu diễn dữ liệu văn bản thành vector
-vectorizer = CountVectorizer(stop_words='english')
-X_train_vec = vectorizer.fit_transform(X_train)
-X_test_vec = vectorizer.transform(X_test)
-
-X_train_vec.shape, X_test_vec.shape, y_train.shape, y_test.shape
-# Phân phối Bernoulli
-bernoulli_nb = BernoulliNB()
-bernoulli_nb.fit(X_train_vec, y_train)
-y_pred_bernoulli = bernoulli_nb.predict(X_test_vec)
-accuracy_bernoulli = accuracy_score(y_test, y_pred_bernoulli)
-
-# Phân phối Multinomial
-multinomial_nb = MultinomialNB()
-multinomial_nb.fit(X_train_vec, y_train)
-y_pred_multinomial = multinomial_nb.predict(X_test_vec)
-accuracy_multinomial = accuracy_score(y_test, y_pred_multinomial)
-
-title = st.text_input("Tôi sẽ phân tích tâm trạng của bạn ", "0")
+title = st.text_input("Dự đoán tích/tiêu cực của kí tự ")
 
 user = vectorizer.transform(np.array([title]))
-ans = bernoulli_nb.predict(user)
+ans = Bernoulli.predict(user)
 
-st.write("Tâm trạng của bạn là", "tốt" if ans == "positive" else "không tốt")
+st.write("Kết quả là: ", "tốt" if ans == "positive" else "không tốt")
