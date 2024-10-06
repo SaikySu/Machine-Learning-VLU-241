@@ -9,7 +9,7 @@ from sklearn.naive_bayes import BernoulliNB, MultinomialNB
 from sklearn.metrics import accuracy_score
 
 # Đọc file CSV được tải lên
-file_path = 'E:\Learn\University Learn\Y3_HK1\Machine Learning\Practice\Code\Lab2\Education.csv'
+file_path = 'Education.csv'
 data = pd.read_csv(file_path)
 
 # Tiền xử lý dữ liệu văn bản
