@@ -9,7 +9,7 @@ Random Forest: Đây là một thuật toán phân loại và hồi quy sử d�
 
 ## 3. Kết quả:
 <p align="center">
-    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab4/img/img1.png" width=350>
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab4/img/img1.png">
     <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab4/img/img2.png" width=350>
     <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab4/img/img3.png" width=350>
 </p>
