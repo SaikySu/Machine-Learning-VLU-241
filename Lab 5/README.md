@@ -1,4 +1,5 @@
 # Bài thực hành lab5
+# BT1
 ## 1. Công nghệ sử dụng
 Sử dụng thư viện: numpy, matplotlib, cvxopt (Quadratic Programming - QP).
 
@@ -16,6 +17,7 @@ Cuối cùng là biểu diễn trực quan đồ thị bằng phương trình w0
     <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image.png">
 </p>
 
+# BT2
 ## 2. Công nghệ sử dụng
 Sử dụng thư viện: numpy, matplotlib, cvxopt (Quadratic Programming - QP).
 
