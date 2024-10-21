@@ -13,7 +13,7 @@ Cuối cùng là biểu diễn trực quan đồ thị bằng phương trình w0
 
 ## 3. Kết quả:
 <p align="center">
-    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%204/img/img1.png">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image.png">
 </p>
 
 ## 2. Công nghệ sử dụng
@@ -32,5 +32,5 @@ Slack value: tính toán và hiển thị các biến slack(ξ) để đo các �
 
 ## 3. Kết quả:
 <p align="center">
-    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%204/img/img1.png">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image_2.png">
 </p>
