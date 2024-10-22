@@ -39,5 +39,5 @@ Slack value: tính toán và hiển thị các biến slack(ξ) để đo các �
 
 # BT3. Kết quả bài kiểm tra:
 <p align="center">
-    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image_2.png">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image_3.png?raw=true">
 </p>
