@@ -9,7 +9,7 @@ Tối ưu hoá để tìm ra giá trị λ cho cực tiểu hàm mục tiêu v�
 
 Tính toán trọng số w bằng tổng của các λi nhân với yi và các điểm xi
 Sau khi xác định được vector hỗ trợ sau đó bắt đầu tính b từ các vector hỗ trợ
-Cuối cùng là biểu diễn trực quan đồ thị bằng phương trình w0x1 + w1x2 + b =  0 sau khi chạy plt.show() từ thư viện matplotlib ta thấy biểu đồ các biên dương âm song song cách đều nhau 1 khoảng gọi là margin
+Cuối cùng là biểu diễn trực quan đồ thị bằng phương trình w0x1 + w1x2 + b = 0 sau khi chạy plt.show() từ thư viện matplotlib ta thấy biểu đồ các biên dương âm song song cách đều nhau 1 khoảng gọi là margin
 
 ## 3. Kết quả:
 <p align="center">
@@ -31,6 +31,11 @@ Sau đó sử dụng plt.show() từ thư viện matplotlib để trực quan ho
 Slack value: tính toán và hiển thị các biến slack(ξ) để đo các điểm nằm ngoài margin
 
 ## 3. Kết quả:
+<p align="center">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image_2.png">
+</p>
+
+# BT3. Kết quả bài kiểm tra:
 <p align="center">
     <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image_2.png">
 </p>
