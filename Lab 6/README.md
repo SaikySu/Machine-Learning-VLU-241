@@ -17,7 +17,7 @@ Use case: Binary classification problems
 
 ## 3. Kết quả:
 <p align="center">
-    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image.png">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image.png">
 </p>
 
 # BT2
@@ -52,10 +52,18 @@ Thường dùng cho lớp output trong multi-class classification
 
 ## 3. Kết quả:
 <p align="center">
-    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image_2.png">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image2.png">
 </p>
 
-# BT3. Kết quả bài kiểm tra:
 <p align="center">
-    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%205/img/image_3.png?raw=true">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image3.png">
 </p>
+
+<p align="center">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image4.png">
+</p>
+
+<p align="center">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image5.png">
+</p>
+
