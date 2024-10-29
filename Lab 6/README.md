@@ -6,12 +6,18 @@ Sử dụng thư viện: Streamlit, PyTorch, Matplotlib, NumPy.
 
 ## 2. Thuật toán sử dụng
 Loss Functions: Mean Square Error (MSE)
-Công thức: MSE = (1/n) * Σ(y_pred - y_true)²
+Công thức:
+<p align="center">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image_Lost_Funtion.png">
+</p>
 Đặc điểm: Đo lường khoảng cách trung bình bình phương giữa giá trị dự đoán và giá trị thực
 
 
 Binary Cross Entropy:
-Công thức: BCE = -(1/N) * Σ(y_true * log(y_pred) + (1-y_true) * log(1-y_pred))
+Công thức:
+<p align="center">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image_Binary_Cross_Entropy.png">
+</p>
 Đặc điểm: Đo lường loss cho bài toán phân loại nhị phân
 Use case: Binary classification problems
 
@@ -38,13 +44,19 @@ Công thức: f(x) = max(0,x)
 Giải quyết vấn đề vanishing gradient
 
 Tanh (Hyperbolic Tangent)
-Công thức: tanh(x) = (e^x - e^(-x))/(e^x + e^(-x))
+Công thức: 
+<p align="center">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image_Tanh(Hyperbolic%20Tangent).png">
+</p>
 Đặc điểm:
 Output range: (-1,1)
 Zero-centered
 
 Softmax:
-Công thức: softmax(x_i) = e^(x_i)/Σ(e^(x_j))
+Công thức:
+<p align="center">
+    <img src="https://github.com/SaikySu/Machine-Learning-VLU-241/blob/main/Lab%206/img/image_softmax.png">
+</p>
 Đặc điểm:
 Chuyển đổi vector input thành vector probability
 Tổng các output = 1
