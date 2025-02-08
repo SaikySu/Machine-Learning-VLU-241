@@ -15,6 +15,7 @@ Những bài tập này sử dụng dataset về bao gồm: Drug200, Iris, Educa
 Xin gửi lời cảm ơn chân thành đến:
  - TS.Huỳnh Thái Học, Khoa Công Nghệ Thông Tin, Trường ĐH Văn Lang 
  - ThS.Nguyễn Thái Anh, Khoa Công Nghệ Thông Tin, Trường ĐH Văn Lang 
+ 
 Đã hỗ trợ và đồng hành trong suốt quá trình học. 
 
 # Machine Learning - Van Lang University
@@ -34,4 +35,5 @@ These exercises use datasets including: Drug200, Iris, Education and MNIST of CI
 Sincere thanks to:
 - Dr. Huynh Thai Hoc, Faculty of Information Technology, Van Lang University
 - MSc. Nguyen Thai Anh, Faculty of Information Technology, Van Lang University
+
 For supporting and accompanying throughout the learning process.
